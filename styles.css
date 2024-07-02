@@ -1,26 +1,27 @@
 body{
 	font-family: : Arial, Helvetica, sans-serif;
 	text-align: center;
-/*	background-color: #D5D5D5 */
-	color: #0047AB;
+	background-color: #e0e0e0; 
+	color: #1C1D1E;
 
 }
 
 hr{
 	max-width: 480px;
-	border: 1px solid #B7DFF2;
+	border: 1px solid #6C6D6E;
 }
 
 #board{
 	width: 400px;
 	height: 400px;
-	/*background-color: #7A7A7A;
-	border: 6px solid #5F5F5F;*/
-	background-color: #EFFAFF;
-	border: 6px solid #B7DFF2;
+/*	background-color: #7A7A7A;*/
+	border: 6px solid #5F5F5F;
+	background-color: #CACACA;
+	border: 6px solid #3A3B3C;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 50px;
 }
 
 .tile{
@@ -29,7 +30,7 @@ hr{
 	width: 90px;
 	height: 90px;
 /*	border:  5px solid #ACACAC;*/
-	border:  5px solid #B7DFF2;
+	border:  5px solid #6C6D6E;
 	font-size: 25px;
 	font-weight: bold;
 	display: flex;
@@ -49,7 +50,7 @@ hr{
 }
 
 .x4{
-	background-color: #ece0ca;
+	background-color: #ffe0c2;
 	color: rgba(0,0,0,0);
 	background-image: var(--background-image-url-04);
 	background-size: 100% 100%;
@@ -63,7 +64,7 @@ hr{
 }
 
 .x16{
-	background-color: #f59575;
+	background-color: #e8934d;
 	color: rgba(0,0,0,0);
 	background-image: var(--background-image-url-16);
 	background-size: 100% 100%;
@@ -78,7 +79,7 @@ hr{
 }
 
 .x64{
-	background-color: #f65d3b;
+	background-color: #fc623d;
 	color: rgba(0,0,0,0);
 	background-image: var(--background-image-url-64);
 	background-size: 100% 100%;
@@ -92,7 +93,7 @@ hr{
 }
 
 .x256{
-	background-color: #edcc63;
+	background-color: #ffeb3b;
 	color: rgba(0,0,0,0);
 	background-image: var(--background-image-url-256);
 	background-size: 100% 100%;
